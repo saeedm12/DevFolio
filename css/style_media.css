@@ -1,0 +1,211 @@
+@media screen and (min-width: 0px) and (max-width:576px) 
+{
+.mq
+{
+display: unset !important;
+margin: 0px auto !important;
+margin-top: 5px 0px !important;
+}
+.main-up-div
+{
+    width: 100% !important;
+}
+.main-down-div
+{
+    width: 100% !important;
+    margin-top: 10px;
+}
+main span h5::after
+{
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    left: 5px;
+}
+.F-div , .S-div , .T-div , .div-1 , .div-2 , .div-3 
+{
+    width: 100% !important;
+    padding: 25px;
+    margin: 10px 0px; 
+}
+.section-1 span
+{
+    position: relative;
+}
+.section-1 span p::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:60;
+    left: 170;
+}
+.section-2 .container
+{
+    width: 100% !important;
+    display: unset !important;
+}
+.Portfolio .container .shadow
+{
+    width: 100% !important;
+    margin: 10px 0px;
+}
+.blog .container .shadow
+{
+width: 100% !important;
+display: unset !important;
+margin: 10px auto;
+}
+.contact-us .form
+{
+    width: 100% !important;
+}
+.contact-us button
+{
+    width: 70%;
+}
+}
+@media screen and (min-width: 577px) and (max-width:769px) 
+{
+    .mq
+    {
+    display: unset !important;
+    margin: 0px auto !important;
+    margin-top: 5px 0px !important;
+    }
+    .main-up-div
+    {
+        width: 100% !important;
+    }
+    .main-down-div
+    {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    main span h5::after
+    {
+        position: absolute;
+        height: 3px;
+        width: 60px;
+        background-color: #0078FF;
+        content: "";
+        bottom:-10;
+        left: 5px;
+    } 
+    .F-div , .S-div , .T-div , .div-1 , .div-2 , .div-3 
+    {
+        width: 70%;
+        padding: 25px;
+        margin: 10px 0px;
+        margin: 0px auto; 
+    }
+    .section-2 .container
+{
+    width: 100% !important;
+    justify-content: center !important;
+} 
+.Portfolio .container .shadow
+{
+    margin: 5px auto;
+    width: 80% !important;
+}
+.blog .container .shadow
+{
+width: 100% !important;
+margin: 10px auto;
+}
+.blog span a::after
+{
+    position: absolute;
+    content: "Web Design";
+    background-color: #0078FF;
+    left: 150;
+    bottom: 35;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 5px;
+    color: white;
+}
+.contact-us .form
+{
+    width: 100% !important;
+}
+.contact-us button
+{
+    width: 70%;
+}
+}
+@media screen and (min-width: 770px) and (max-width:993px) 
+{
+    main span h5::after
+    {
+        height: 3px;
+        width: 60px;
+        left: 10px;
+    }
+    .list-group li
+    {
+        margin-left: 20px !important;
+    }
+    .blog span a::after
+{
+    position: absolute;
+    content: "Web Design";
+    background-color: #0078FF;
+    left: 50;
+    bottom: 70;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 5px;
+    color: white;
+    width: 70%;
+}
+.contact-us .form
+{
+    width: 100% !important;
+}
+.contact-us button
+{
+    width: 70%;
+}
+
+}
+@media screen and (min-width: 994px) and (max-width:1201px) 
+{
+    main span h5::after
+    {
+        height: 3px;
+        width: 60px;
+        left: 15px;
+    }
+    .blog span a::after
+    {
+        position: absolute;
+        content: "Web Design";
+        background-color: #0078FF;
+        left: 80;
+        bottom: 70;
+        font-size: 15px;
+        border-radius: 5%;
+        padding: 5px;
+        color: white;
+        width: 160%;
+    }
+    .contact-us button
+{
+    width: 70%;
+}
+ }
+ @media screen and (min-width: 1202px) and (max-width:1401px)  {
+    main span h5::after
+    {
+        height: 3px;
+        width: 60px;
+        right: 320px;
+    }
+  }

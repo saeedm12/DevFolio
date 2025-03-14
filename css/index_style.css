@@ -1,0 +1,514 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link 
+{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 8px;
+}
+nav
+{
+    z-index: 111111;
+}
+.dropdown-menu
+{
+    display: block;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    opacity: 1;
+    margin-top: 0;
+}
+.dropdown.dropdown-2 ul
+{
+    transform: translateX(90%);
+    opacity: 0 !important;
+}
+.dropdown-2:hover .dropdown-menu 
+{
+    opacity: 1 !important;
+}
+.navbar-nav
+{
+    margin-right: 150px;
+}
+.navbar-brand
+{
+    font-size: 30px;
+}
+
+.home-animation::after
+{
+    content: "";
+    font-size: xx-large;
+    color: white;
+    animation: animation  5s both infinite;
+}
+@keyframes animation 
+{
+    0%
+    {
+        
+            content: "De";
+
+    }
+    5%
+    {
+            content: "Des";
+    }
+    7%
+    {
+            content: "Desi|";
+    }
+    10%
+    {
+            content: "Desin";
+    }
+    13%
+    {
+            content: "Desine|";
+    }
+    18%
+    {
+            content: "Desiner";
+    }
+    25%
+    {
+            content: "Desine|";
+    }
+    28%
+    {
+        
+            content: "Desin";
+
+    }
+    33%
+    {
+            content: "Desi|";
+    }
+    38%
+    {
+            content: "Des";
+    }
+    43%
+    {
+            content: "De|";
+    }
+    48%
+    {
+            content: "Dev";
+    }
+    53%
+    {
+            content: "Deve|";
+    }
+    58%
+    {
+            content: "Devel";
+    }
+    63%
+    {
+            content: "Develo|";
+    }
+    68%
+    {
+            content: "Develop";
+    }
+    73%
+    {
+            content: "Develope|";
+    }
+    78%
+    {
+            content: "Developer";
+    }
+    80%
+    {
+            content: "Develope|";
+    }
+    83%
+    {
+            content: "Develop";
+    }
+    85%
+    {
+            content: "Develo|";
+    }
+    90%
+    {
+            content: "Devel";
+    }
+    93%
+    {
+            content: "Deve|";
+    }
+    95%
+    {
+            content: "Dev|";
+    }
+    100%
+    {
+            content: "De|";
+    }
+}
+
+header 
+{
+    background-image: url(../imgs/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1 
+{
+font-size: 72px;
+font-weight: 600;
+color: white;
+}
+main span
+{
+    position: relative;
+}
+main span h5::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    right: 360px;
+}
+.list-group.ms-4 li
+{
+ margin-left: 50px;
+ padding: 10px 0px;
+}
+.F-div , .S-div , .T-div , .div-1 , .div-2 , .div-3 
+{
+    width: 30%;
+    padding: 25px; 
+}
+.section-1 span
+{
+    position: relative;
+}
+.section-1 span p::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    right: 720px;
+}
+.section-1 h1 , p 
+{
+    text-align: center;
+}
+.section-1 h1 
+{
+    font-size: 48px;
+    color: rgb(30, 30, 30);
+    font-style: normal;
+    font-weight: 600;
+   margin-top: 70px;
+}
+.section-1 p 
+{
+    margin-bottom: 70px;
+}
+.section-1 i
+{
+font-size: 40px;
+padding: 20px;
+border-radius: 50%;
+border-width: 10px;
+border-style: solid;
+border-color: #0078FF;
+color: black;
+transition: 0.5s;
+}
+
+.F-div:hover .fa-suitcase 
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.S-div:hover .fa-rectangle-list
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.T-div:hover .fa-signal
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.div-1:hover .fa-binoculars
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.div-2:hover .fa-sun
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.div-3:hover .fa-calendar-days
+{
+ background-color: #0078FF;
+ color: white;
+ border-color: #89BEFA;
+}
+.section-2 
+{
+background: linear-gradient(rgba(6,90,185,0.6) , rgba(6,90,185,0.6)) , url(../imgs/counters-bg.jpg);
+background-attachment: fixed;
+color: white;
+}
+.section-2 i 
+{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #CDE1F8;
+    background-color: transparent;
+}
+.Portfolio i
+{
+font-size: 30px;
+padding: 5px;
+border-radius: 50%;
+border-width: 3px;
+border-style: solid;
+border-color: #0078FF;
+color: #0078FF
+}
+.Portfolio span p 
+{
+    color: black;
+}
+.Portfolio span
+{
+    position: relative;
+}
+.Portfolio span p::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    right: 700px;
+}
+.Portfolio span
+{
+    color: #0078FF;
+}
+.Portfolio h1 , p 
+{
+    text-align: center;
+}
+.Portfolio h1 
+{
+    font-size: 48px;
+    color: rgb(30, 30, 30);
+    font-style: normal;
+    font-weight: 600;
+   margin-top: 70px;
+}
+.Portfolio .shadow
+{
+    overflow: hidden;
+}
+.Portfolio .shadow img 
+{
+    transition: all 0.5s;
+}
+.Portfolio .shadow:hover img
+{
+    transform: scale(1.1);
+}
+.slider
+{
+background: linear-gradient(rgba(6,90,185,0.6) , rgba(6,90,185,0.6)) , url(../imgs/overlay-bg.jpg);
+background-attachment: fixed;
+color: white;
+padding: 100px 0px;
+}
+.carousel-indicators [data-bs-target]
+{   
+   border-radius:500px;
+   border-width: 1px; 
+   padding: 5px; 
+}
+.blog h1 
+{
+    font-size: 48px;
+    color: rgb(30, 30, 30);
+    font-style: normal;
+    font-weight: 600;
+   margin-top: 70px;
+}
+.blog span
+{
+    position: relative;
+}
+.blog span p::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    right: 600px;
+}
+.blog a 
+{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+.blog .upper-card a 
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.blog a:hover
+{
+color: #0078FF;
+}
+
+.blog .small-img img
+{
+width: 10%;
+border-radius: 50%;
+}
+.blog span
+{
+position: relative;
+}
+.blog span a::after
+{
+    position: absolute;
+    content: "Web Design";
+    background-color: #0078FF;
+    left: 130;
+    bottom: 35;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 5px;
+    color: white;
+}
+.contact-us 
+{
+    background: linear-gradient(rgba(6,90,185,0.6) , rgba(6,90,185,0.6)) , url(../imgs/overlay-bg.jpg);
+    background-attachment: fixed;
+    padding: 70px;
+}
+.contact-us .container.bg-white
+{
+padding: 30px;
+}
+.contact-us input
+{
+    padding: 10px;
+}
+.contact-us textarea
+{
+    padding-bottom: 70px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.contact-us button
+{
+    width: 30%;
+    border-radius: 600px;
+    padding: 10px;
+    background-color: #0078FF;
+    color: white;
+    transition: all 0.3s;
+    border-color: transparent;
+}
+.contact-us .text-start 
+{
+    font-size: 20px;
+    font-weight:300;
+    color: rgb(78, 78, 78);
+}
+.contact-us button:hover
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CDE1F8;
+}
+.contact-us h2 
+{
+   position: relative; 
+}
+.contact-us span::after
+{
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #0078FF;
+    content: "";
+    bottom:-10;
+    left: 0;
+}
+
+.contact-us .container .d-flex i 
+{
+    color: #0078FF;
+}
+.contact-us .fa-brands
+{
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 8px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0078FF;
+    background-color: transparent; 
+    transition: all 0.3s; 
+}
+.contact-us .fa-brands:hover
+{
+    background-color: #0078FF;
+    color: white;
+    border-color: #89BEFA;
+}
+footer
+{
+    background-color: rgb(0,98,211);
+    height: 15vh;
+    color: white;
+    padding: 10px 0px;
+}
+
+
+
+
+
+
